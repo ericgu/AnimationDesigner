@@ -1,0 +1,6 @@
+C:\data\Electronics\GarageLed\NeopixelAnimator\bin\Debug\NeopixelAnimator.exe.config
+C:\data\Electronics\GarageLed\NeopixelAnimator\bin\Debug\NeopixelAnimator.exe
+C:\data\Electronics\GarageLed\NeopixelAnimator\bin\Debug\NeopixelAnimator.pdb
+C:\data\Electronics\GarageLed\NeopixelAnimator\obj\Debug\NeopixelAnimator.csprojResolveAssemblyReference.cache
+C:\data\Electronics\GarageLed\NeopixelAnimator\obj\Debug\NeopixelAnimator.exe
+C:\data\Electronics\GarageLed\NeopixelAnimator\obj\Debug\NeopixelAnimator.pdb
