@@ -7,3 +7,12 @@ c:\data\electronics\AnimationDesigner\obj\Debug\AnimationDesigner.Properties.Res
 c:\data\electronics\AnimationDesigner\obj\Debug\AnimationDesigner.csproj.GenerateResource.Cache
 c:\data\electronics\AnimationDesigner\obj\Debug\AnimationDesigner.exe
 c:\data\electronics\AnimationDesigner\obj\Debug\AnimationDesigner.pdb
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\bin\Debug\AnimationDesigner.exe.config
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\obj\Debug\AnimationDesigner.exe
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\obj\Debug\AnimationDesigner.pdb
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\bin\Debug\AnimationDesigner.exe
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\bin\Debug\AnimationDesigner.pdb
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\obj\Debug\AnimationDesigner.csprojResolveAssemblyReference.cache
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\obj\Debug\AnimationDesigner.Properties.Resources.resources
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\obj\Debug\AnimationDesigner.csproj.GenerateResource.Cache
+D:\data\Electronics\AnimationDesigner\AnimationDesigner\obj\Debug\AnimationDesigner.Form1.resources

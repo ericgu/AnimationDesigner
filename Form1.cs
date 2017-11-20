@@ -1,33 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace AnimationDesigner
 {
     public partial class Form1 : Form
     {
+        private readonly Timer _timer;
+        private IAnimate _animation;
+        private readonly SnowflakeLeds _snowflakeLeds;
+
         public Form1()
         {
             InitializeComponent();
 
+            _animation = new AnimateAngular();
+            _animation = new AnimateDistance();
+
+            _timer = new Timer();
+            _timer.Tick += Timer_Tick;
+            _timer.Interval = 10;
+            _timer.Start();
+
             Paint += Form1_Paint;
+            _snowflakeLeds = new SnowflakeLeds();
+        }
 
-
+        private void Timer_Tick(object sender, System.EventArgs e)
+        {
+            Form1_Paint(sender, null);
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            Graphics graphics = this.CreateGraphics();
+            Graphics graphics = CreateGraphics();
 
-            Pen pen = Pens.Yellow;
-            Brush brush = Brushes.Yellow;
-            graphics.FillEllipse(brush, 100, 100, 100, 100);
+            _snowflakeLeds.UpdateColors(_animation);
+            _snowflakeLeds.Draw(Bounds, graphics);
         }
     }
 }
