@@ -11,32 +11,20 @@ namespace AnimationDesigner
         private int _angle;
         private int _distance;
 
-        private byte _red;
-        private byte _green;
-        private byte _blue;
-
         public Led(int angle, int distance)
         {
             _angle = angle;
             _distance = distance;
-            _red = 0;
-            _green = 0;
-            _blue = 0;
         }
 
         public int Angle { get { return _angle; } }
         public int Distance { get { return _distance; } }
 
-        public void SetColor(RgbColor rgbColor)
-        {
-            _red = rgbColor.Red;
-            _green = rgbColor.Green;
-            _blue = rgbColor.Blue;
-        }
+        public RgbColor Color { get; set; }
 
         internal void Draw(Graphics graphics, Rectangle bounds)
         {
-            Color color = Color.FromArgb(_red, _green, _blue);
+            Color color = System.Drawing.Color.FromArgb(Color.Red, Color.Green, Color.Blue);
 
             int xCenter = bounds.Width / 2;
             int yCenter = bounds.Height / 2;

@@ -15,7 +15,7 @@ namespace AnimationDesigner
             CreateArm(120);
 
             Led led = new Led(0, 0);
-            led.SetColor(new RgbColor(255, 255, 255));
+            led.Color = new RgbColor(255, 255, 255);
             _ledCollection.Add(led);
 
             CreateArm(180);
@@ -39,7 +39,6 @@ namespace AnimationDesigner
         private void AddLed(int angle, int distance)
         {
             Led led2 = new Led(angle, distance);
-            led2.SetColor(new RgbColor(0, 0, 255));
             _ledCollection.Add(led2);
         }
 
